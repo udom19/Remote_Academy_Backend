@@ -1,0 +1,35 @@
+{
+  "name": "remote-academy-backend",
+  "version": "1.0.0",
+  "description": "google sheet showing group members and their details was uploaded",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oluwaseyiadara95/remote-academy-backend.git"
+  },
+  "author": "Cosmas Udom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oluwaseyiadara95/remote-academy-backend/issues"
+  },
+  "homepage": "https://github.com/oluwaseyiadara95/remote-academy-backend#readme",
+  "dependencies": {
+    "D": "^1.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.16.2",
+    "mongoose": "^5.6.11",
+    "nodemon": "^1.19.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^5.0.1"
+  }
+}
