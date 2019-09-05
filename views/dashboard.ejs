@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="nav-bar">
+    <ul>
+      <li><a class="working" href="/users/register">Register</a></li>
+      <li><a href="/users/login">Log in</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Alumni">Alumni</a></li>
+      <li class="right"><a href="/">Remote Academy</a></li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Courses</a>
+        <div class="dropdown-content">
+          <a href="/courses">All Courses</a>
+          <a href="/courses">Data Science/Machine Learning</a>
+          <a href="/courses">Mobile Development</a>
+          <a href="/courses">Web Development</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="user_detail">
+    <div class="user_content">
+      <p class="username">Welcome <span class="name"><%= firstname %> <%= lastname %></span></p>
+      <div class="logout">
+        <!-- <i href="#"><i class="fa fa-shopping-cart">Shopping Cart</i></a> -->
+        <a href="/users/logout">Logout</a>
+      </div>
+    </div>
+  </div>
+  <div class="centralize">
+    <p class="popular">Learn From Our Most Popular Courses</p>
+  </div>
+  
+  <h3 style="text-align: center; margin-top: 30px;">We have selected the best courses for you to kickstart your web development career.<br>Click the button below to start learning immediately.</h3>
+  <a href="/courses"><button  class="but1">Start Learning</button></a>
+
+  <!-- <div id="container" style="margin: 100px 100px; text-align: center; width: 80%" >
+    <div>
+        <p style="font-size: 20px">Discover your perfect program in our schools</p>
+    </div>
+    <br> <br>
+    <div id="one" style="float: left; width:15%; box-shadow: 5px 5px 5px black; padding:10px; text-align: center; margin-right: 20px">
+        <a href="#"><i class="fas fa-microscope" style="float: left; margin-left: 70px; margin-top:-20px; color: rgb(10, 10, 109); font-size: 30px"></i>
+        <p style="color:rgb(3, 151, 151)">SCHOOL OF</p> 
+        <p>Data Science</p></a>
+    </div>
+
+    <div id="two" style="float: left; width:15%; box-shadow: 5px 5px 5px black; padding:10px; text-align: center; margin-right: 20px">
+        <i class="fab fa-acquisitions-incorporated" style="float: left; margin-left: 70px; margin-top:-20px; color: rgb(10, 10, 109); font-size: 30px"></i>   
+        <p style="color:rgb(3, 151, 151)">SCHOOL OF</p> 
+        <p>Artificial Intelligence</p>
+    </div>
+
+    <div id="three" style="float: left; width:15%; box-shadow: 5px 5px 5px black; padding:10px; text-align: center; margin-right: 20px">
+        <i class="fas fa-tasks" style="float: left; margin-left: 70px; margin-top:-20px; color: rgb(10, 10, 109); font-size: 30px"></i>
+        <p style="color:rgb(3, 151, 151)">SCHOOL OF</p>
+        <p>Programming</p>
+    </div>
+
+    <div id="four" style="float: left; width:15%; box-shadow: 5px 5px 5px black; padding:10px; text-align: center; margin-right: 20px">
+        <i class="fab fa-centos" style="float: left; margin-left: 70px; margin-top:-20px; color: rgb(10, 10, 109); font-size: 30px"></i>    
+        <p style="color:rgb(3, 151, 151)">SCHOOL OF</p> 
+        <p>Autonomous System</p>
+    </div>
+
+    <div id="five" style="float: left; width:15%; box-shadow: 5px 5px 5px black; padding:10px; text-align: center; margin-right: 20px">
+        <i class="fas fa-cloud-sun-rain" style="float: left; margin-left: 70px; margin-top:-20px; color: rgb(10, 10, 109); font-size: 30px"></i>
+        <p style="color:rgb(3, 151, 151)">SCHOOL OF</p> 
+        <p>Cloud computing</p>
+    </div>
+
+    <div id="six" style="float: left; padding:20px; text-align: center; margin-left: 250px">
+        <p style="font-size: 20px">Industry leading programs built and recognized by top companies worldwide</p> 
+    </div>
+
+<div id="seven" style="float: left; margin-left: 90px; text-align: center" >
+    <img src="google.png" width="80px" height="50px" alt="" style="margin-right:90px ">        
+    <img src="att.png" width="80px" height="50px" alt="" style="margin-right:90px ">
+    <img src="aws.png" width="80px" height="50px" alt="" style="margin-right:90px ">
+    <img src="ibm.png" width="80px" height="50px" alt="" style="margin-right:90px ">
+    <img src="nvidia.png" width="90px" height="50px" alt="" style="margin-right:90px ">
+</div> -->
+
+</div>
+
+<footer>
+    <div class="address">
+      <div class="address-top">
+        <div class="info"><strong><a href="#">Remote Academy Logo</a></strong></div>
+        <div class="info"><a href="#">Courses</a></div>
+        <div class="info"><a href="#">Careers</a></div>
+        <div class="info"><a href="#">Blog</a></div>
+        <div class="info"><a href="#">Contact Us</a></div>
+      </div>
+
+      <div class="address-bottom">
+        <div class="info">
+          <div>Remote Academy NO. 1 Kigali</div>
+          <div>Slack Avenue, SlackNG Nigeria</div>
+        </div>
+        <div class="info">
+          <div>info@remoteacadey.com</div>
+          <div>+234700007887</div>
+        </div>
+        <div class="info">2019 Remote Academy</div>
+        <div class="info">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+</body>
+</html>
