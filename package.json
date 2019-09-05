@@ -4,8 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node index.js",
+    "test": "node index.js",
+    "dev": "nodemon index.js"
   },
   "engines": {
     "node": "10.x"
