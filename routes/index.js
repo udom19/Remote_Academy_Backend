@@ -1,9 +1,6 @@
 const express = require('express');
 const router = express.Router();
-<<<<<<< HEAD
 const Cart = require("../models/Cart");
-=======
->>>>>>> 713aa8d394a220175a3ef057d2528bd5ea964aa6
 const { ensureAuthenticated } = require("../config/auth");
 
 // Landing route
@@ -12,7 +9,6 @@ router.get('/', (req, res) => res.render('landing'));
 // Dashboard
 router.get('/dashboard', ensureAuthenticated, (req, res) => 
 res.render('dashboard', {
-<<<<<<< HEAD
     firstname: req.user.firstname,
     lastname: req.user.lastname,
     email: req.user.email
@@ -93,9 +89,4 @@ router.get("/courses", (req, res) => {
 
 
 
-=======
-    firstname: req.user.firstname
-}));
-
->>>>>>> 713aa8d394a220175a3ef057d2528bd5ea964aa6
 module.exports = router;

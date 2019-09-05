@@ -10,15 +10,12 @@ router.get('/login', (req, res) => res.render('login'));
 // Register route
 router.get('/register', (req, res) => res.render('register'));
 
-<<<<<<< HEAD
 // Post course Route
 router.get('/course', (req, res) => res.render('new'));
 
 // Add to Cart
 router.get('/course/add-to-cart', (req, res) => res.render('add-to-cart'));
 
-=======
->>>>>>> 713aa8d394a220175a3ef057d2528bd5ea964aa6
 // Register handle
 router.post('/register', (req, res) =>{
     const { firstname, lastname, email, password, password2, phonenumber, course, address } = req.body;
@@ -100,11 +97,7 @@ router.post('/register', (req, res) =>{
 // Login Handle
 router.post("/login", (req, res, next) => {
     passport.authenticate("local", {
-<<<<<<< HEAD
         successRedirect: "/dashboard",
-=======
-        successRedirect: "/",
->>>>>>> 713aa8d394a220175a3ef057d2528bd5ea964aa6
         failureRedirect: "/users/login",
         failureFlash: true
     })(req, res, next);
