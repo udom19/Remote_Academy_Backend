@@ -7,6 +7,9 @@
     "test": "node app.js",
     "dev": "nodemon app.js"
   },
+  "engines": {
+    "node": "10.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/udom19/Remote_Academy_Backend.git"
@@ -14,7 +17,7 @@
   "author": "Cosmas Udom",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/udom19/Remote_Academy_Backend/issues"
+    "url": "https://github.com/udom19/Remote_Academy_Backend"
   },
   "homepage": "https://github.com/udom19/Remote_Academy_Backend#readme",
   "dependencies": {
